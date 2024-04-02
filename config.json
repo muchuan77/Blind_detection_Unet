@@ -1,0 +1,14 @@
+{
+    "backbone": "vgg",
+    "dataset_path": "dataset/TP-Dataset",
+    "model_path": "model_data/vgg16-397923af.pth",
+    "num_classes": 10,
+    "batch_size": 4,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 100,
+    "best_model_path": "data_model/model",
+    "model_save_path": "data_model/predict",
+    "test_log_path": "logs/test_path",
+    "train_log_path": "logs/train_path"
+}
